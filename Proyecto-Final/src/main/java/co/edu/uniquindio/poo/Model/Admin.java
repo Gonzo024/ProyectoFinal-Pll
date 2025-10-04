@@ -1,13 +1,14 @@
-package co.edu.uniquindio.poo.Model;
+package co.edu.uniquindio.poo.model;
 
 public class Admin {
     private String idAdmin;
     private Usuario usuario;
-    private Repartidor repartido;
+    private Repartidor repartidor;
 
-    public Admin(Usuario usuario, Repartidor repartido) {
+    public Admin(String idAdmin, Usuario usuario, Repartidor repartidor) {
+        this.idAdmin = idAdmin;
         this.usuario = usuario;
-        this.repartido = repartido;
+        this.repartidor = repartidor;
     }
 
     public Usuario getUsuario() {
@@ -19,10 +20,10 @@ public class Admin {
     }
 
     public Repartidor getRepartido() {
-        return repartido;
+        return repartidor;
     }
 
     public void setRepartido(Repartidor repartido) {
-        this.repartido = repartido;
+        this.repartidor = repartido;
     }
 }

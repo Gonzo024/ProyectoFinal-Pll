@@ -1,4 +1,4 @@
-package co.edu.uniquindio.poo.Model;
+package co.edu.uniquindio.poo.model;
 
 public class Repartidor {
     private String idRepartidor;

@@ -1,25 +1,29 @@
-package co.edu.uniquindio.poo.Model;
+package co.edu.uniquindio.poo.model;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Usuario {
     private String idUsuario;
     private String nombre;
     private String correo;
     private String telefono;
-    private Envio envio;
+    private List<Envio> envios; 
 
-    public Usuario(String id, String nombre, String direccion, String telefono) {
-        this.id = id;
+    public Usuario(String idUsuario, String nombre, String correo, String telefono) {
+        this.idUsuario = idUsuario;
         this.nombre = nombre;
-        this.direccion = direccion;
+        this.correo = correo;
         this.telefono = telefono;
+        this.envios = new ArrayList<>();
     }
 
-    public String getId() {
-        return id;
+    public String getIdUsuario() {
+        return idUsuario;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setId(String idUsuario) {
+        this.idUsuario = idUsuario;
     }
 
     public String getNombre() {
@@ -30,12 +34,12 @@ public class Usuario {
         this.nombre = nombre;
     }
 
-    public String getDireccion() {
-        return direccion;
+    public String getCorreo() {
+        return correo;
     }
 
-    public void setDireccion(String direccion) {
-        this.direccion = direccion;
+    public void setCorreo(String correo) {
+        this.correo = correo;
     }
 
     public String getTelefono() {
@@ -44,5 +48,13 @@ public class Usuario {
 
     public void setTelefono(String telefono) {
         this.telefono = telefono;
+    }
+
+    public List<Envio> getEnvios() { 
+        return envios; 
+    }
+
+    public void agregarEnvio(Envio envio) { 
+        this.envios.add(envio); 
     }
 }
