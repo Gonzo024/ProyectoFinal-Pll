@@ -1,9 +1,9 @@
-package co.edu.uniquindio.poo.service;
+package co.edu.uniquindio.poo.Service;
 
-import co.edu.uniquindio.poo.model.Envio;
-import co.edu.uniquindio.poo.model.Usuario;
-import co.edu.uniquindio.poo.model.Direccion;
-import co.edu.uniquindio.poo.model.Prioridad;
+import co.edu.uniquindio.poo.Model.Envio;
+import co.edu.uniquindio.poo.Model.Usuario;
+import co.edu.uniquindio.poo.Model.Direccion;
+import co.edu.uniquindio.poo.Model.Prioridad;
 
 import java.time.LocalDate;
 

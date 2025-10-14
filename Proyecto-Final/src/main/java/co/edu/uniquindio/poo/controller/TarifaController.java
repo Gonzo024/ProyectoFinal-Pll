@@ -1,7 +1,7 @@
-package co.edu.uniquindio.poo.controller;
+package co.edu.uniquindio.poo.Controller;
 
-import co.edu.uniquindio.poo.model.Prioridad;
-import co.edu.uniquindio.poo.service.ITarifaService;
+import co.edu.uniquindio.poo.Model.Prioridad;
+import co.edu.uniquindio.poo.Service.ITarifaService;
 
 public class TarifaController {
     private final ITarifaService tarifaService;

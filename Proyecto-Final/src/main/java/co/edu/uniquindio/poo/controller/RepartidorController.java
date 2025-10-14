@@ -1,7 +1,7 @@
-package co.edu.uniquindio.poo.controller;
+package co.edu.uniquindio.poo.Controller;
 
-import co.edu.uniquindio.poo.model.Repartidor;
-import co.edu.uniquindio.poo.service.IRepartidorService;
+import co.edu.uniquindio.poo.Model.Repartidor;
+import co.edu.uniquindio.poo.Service.IRepartidorService;
 
 public class RepartidorController {
     private final IRepartidorService repartidorService;

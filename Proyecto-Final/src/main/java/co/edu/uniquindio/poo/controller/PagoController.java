@@ -1,8 +1,8 @@
-package co.edu.uniquindio.poo.controller;
+package co.edu.uniquindio.poo.Controller;
 
-import co.edu.uniquindio.poo.model.Envio;
-import co.edu.uniquindio.poo.model.Pago;
-import co.edu.uniquindio.poo.service.IPagoService;
+import co.edu.uniquindio.poo.Model.Envio;
+import co.edu.uniquindio.poo.Model.Pago;
+import co.edu.uniquindio.poo.Service.IPagoService;
 
 public class PagoController {
     private final IPagoService pagoService;

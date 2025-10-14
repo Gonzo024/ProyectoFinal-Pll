@@ -1,4 +1,4 @@
-package co.edu.uniquindio.poo.model;
+package co.edu.uniquindio.poo.Model;
 
 import java.time.LocalDate;
 
@@ -61,4 +61,6 @@ public class Envio {
     public void setDetalleEnvio(DetalleEnvio detalleEnvio) { 
         this.detalleEnvio = detalleEnvio; 
     }
+
+
 }

@@ -1,4 +1,4 @@
-package co.edu.uniquindio.poo.model;
+package co.edu.uniquindio.poo.Model;
 
 public class Tarifa {
     private String idTarifa;

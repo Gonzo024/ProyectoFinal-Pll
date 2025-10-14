@@ -1,7 +1,7 @@
-package co.edu.uniquindio.poo.controller;
+package co.edu.uniquindio.poo.Controller;
 
-import co.edu.uniquindio.poo.model.Usuario;
-import co.edu.uniquindio.poo.service.IUsuarioService;
+import co.edu.uniquindio.poo.Model.Usuario;
+import co.edu.uniquindio.poo.Service.IUsuarioService;
 
 public class UsuarioController {
     private final IUsuarioService usuarioService;
