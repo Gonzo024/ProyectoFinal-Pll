@@ -1,4 +1,4 @@
-package co.edu.uniquindio.poo.Model;
+package co.edu.uniquindio.poo.model;
 
 public class Direccion {
     private String idDireccion;
@@ -56,4 +56,5 @@ public class Direccion {
         this.alias = alias; 
     }
 }
+
 

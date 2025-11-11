@@ -1,11 +1,11 @@
-package co.edu.uniquindio.poo.Model;
+package co.edu.uniquindio.poo.model;
 
 public class Admin {
     private String idAdmin;
-    private co.edu.uniquindio.poo.Model.Usuario usuario;
-    private co.edu.uniquindio.poo.Model.Repartidor repartidor;
+    private co.edu.uniquindio.poo.model.Usuario usuario;
+    private co.edu.uniquindio.poo.model.Repartidor repartidor;
 
-    public Admin(String idAdmin, co.edu.uniquindio.poo.Model.Usuario usuario, Repartidor repartidor) {
+    public Admin(String idAdmin, co.edu.uniquindio.poo.model.Usuario usuario, Repartidor repartidor) {
         this.idAdmin = idAdmin;
         this.usuario = usuario;
         this.repartidor = repartidor;

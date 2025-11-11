@@ -1,7 +1,7 @@
-package co.edu.uniquindio.poo.Controller;
+package co.edu.uniquindio.poo.controller;
 
-import co.edu.uniquindio.poo.Model.Direccion;
-import co.edu.uniquindio.poo.Service.IDireccionService;
+import co.edu.uniquindio.poo.model.Direccion;
+import co.edu.uniquindio.poo.service.IDireccionService;
 
 public class DireccionController {
     private final IDireccionService direccionService;

@@ -1,7 +1,7 @@
-package co.edu.uniquindio.poo.Controller;
+package co.edu.uniquindio.poo.controller;
 
-import co.edu.uniquindio.poo.Model.DetalleEnvio;
-import co.edu.uniquindio.poo.Service.IDetalleEnvioService;
+import co.edu.uniquindio.poo.model.DetalleEnvio;
+import co.edu.uniquindio.poo.service.IDetalleEnvioService;
 
 public class DetalleEnvioController {
     private final IDetalleEnvioService detalleEnvioService;

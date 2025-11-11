@@ -1,9 +1,9 @@
-package co.edu.uniquindio.poo.Controller;
+package co.edu.uniquindio.poo.controller;
 
-import co.edu.uniquindio.poo.Model.Admin;
-import co.edu.uniquindio.poo.Model.Envio;
-import co.edu.uniquindio.poo.Model.Repartidor;
-import co.edu.uniquindio.poo.Service.IAdminService;
+import co.edu.uniquindio.poo.model.Admin;
+import co.edu.uniquindio.poo.model.Envio;
+import co.edu.uniquindio.poo.model.Repartidor;
+import co.edu.uniquindio.poo.service.IAdminService;
 
 public class AdminController {
     private final IAdminService adminService;

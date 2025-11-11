@@ -1,7 +1,7 @@
-package co.edu.uniquindio.poo.Controller;
+package co.edu.uniquindio.poo.controller;
 
-import co.edu.uniquindio.poo.Model.HistorialEntrega;
-import co.edu.uniquindio.poo.Service.IHistorialEntregaService;
+import co.edu.uniquindio.poo.model.HistorialEntrega;
+import co.edu.uniquindio.poo.service.IHistorialEntregaService;
 
 public class HistorialEntregaController {
     private final IHistorialEntregaService historialEntregaService;

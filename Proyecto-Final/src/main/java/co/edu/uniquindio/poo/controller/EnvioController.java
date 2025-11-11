@@ -1,12 +1,8 @@
-package co.edu.uniquindio.poo.Controller;
+package co.edu.uniquindio.poo.controller;
 
-import co.edu.uniquindio.poo.Model.Envio;
-import co.edu.uniquindio.poo.Model.Usuario;
-import co.edu.uniquindio.poo.Model.Direccion;
-import co.edu.uniquindio.poo.Model.Prioridad;
-import co.edu.uniquindio.poo.Service.IEnvioService;
-
-import java.time.LocalDate;
+import co.edu.uniquindio.poo.model.Envio;
+import co.edu.uniquindio.poo.model.patrones.builder.EnvioBuilder; // Importar Patrón
+import co.edu.uniquindio.poo.service.IEnvioService;
 
 public class EnvioController {
     private final IEnvioService envioService;
@@ -15,11 +11,8 @@ public class EnvioController {
         this.envioService = envioService;
     }
 
-    public Envio crearEnvio(Usuario usuario, Direccion origen, Direccion destino, double peso, double volumen, Prioridad prioridad, LocalDate fecha) {
-        return envioService.crearEnvio(usuario, origen, destino, peso, volumen, prioridad, fecha);
+    public Envio crearEnvio(EnvioBuilder builder) {
+        return envioService.crearEnvio(builder);
     }
 
-    public double calcularCostoEnvio(Envio envio) {
-        return envioService.calcularCostoEnvio(envio);
-    }
 }

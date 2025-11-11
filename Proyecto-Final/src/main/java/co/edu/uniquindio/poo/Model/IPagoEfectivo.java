@@ -1,4 +1,4 @@
-package co.edu.uniquindio.poo.Model;
+package co.edu.uniquindio.poo.model;
 
 public interface IPagoEfectivo {
     boolean pagar(double monto);

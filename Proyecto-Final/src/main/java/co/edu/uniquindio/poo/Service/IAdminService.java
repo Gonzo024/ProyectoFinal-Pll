@@ -1,8 +1,8 @@
-package co.edu.uniquindio.poo.Service;
+package co.edu.uniquindio.poo.service;
 
-import co.edu.uniquindio.poo.Model.Admin;
-import co.edu.uniquindio.poo.Model.Envio;
-import co.edu.uniquindio.poo.Model.Repartidor;
+import co.edu.uniquindio.poo.model.Admin;
+import co.edu.uniquindio.poo.model.Envio;
+import co.edu.uniquindio.poo.model.Repartidor;
 
 public interface IAdminService {
     void asignarEnvioARepartidor(Admin admin, Envio envio, Repartidor repartidor);

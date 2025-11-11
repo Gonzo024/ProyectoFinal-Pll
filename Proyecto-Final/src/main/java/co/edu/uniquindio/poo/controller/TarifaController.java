@@ -1,7 +1,10 @@
-package co.edu.uniquindio.poo.Controller;
+package co.edu.uniquindio.poo.controller;
 
-import co.edu.uniquindio.poo.Model.Prioridad;
-import co.edu.uniquindio.poo.Service.ITarifaService;
+import co.edu.uniquindio.poo.model.Prioridad;
+import co.edu.uniquindio.poo.model.ServicioAdicional; 
+import co.edu.uniquindio.poo.service.ITarifaService;
+import java.util.List;
+
 
 public class TarifaController {
     private final ITarifaService tarifaService;
@@ -10,7 +13,8 @@ public class TarifaController {
         this.tarifaService = tarifaService;
     }
 
-    public double calcularCosto(double distancia, double peso, double volumen, Prioridad prioridad) {
-        return tarifaService.calcularCosto(distancia, peso, volumen, prioridad);
+    public double calcularCosto(double distancia, double peso, double volumen, 
+                                Prioridad prioridad, List<ServicioAdicional> servicios) {
+        return tarifaService.calcularCosto(distancia, peso, volumen, prioridad, servicios);
     }
 }

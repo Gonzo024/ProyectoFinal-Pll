@@ -1,6 +1,6 @@
-package co.edu.uniquindio.poo.Service;
+package co.edu.uniquindio.poo.service;
 
-import co.edu.uniquindio.poo.Model.Direccion;
+import co.edu.uniquindio.poo.model.Direccion;
 
 public interface IDireccionService {
     Direccion registrarDireccion(String id, String calle, String ciudad, String coordenadas, String alias);

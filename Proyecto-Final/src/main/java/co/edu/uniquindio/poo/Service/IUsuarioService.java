@@ -1,8 +1,11 @@
-package co.edu.uniquindio.poo.Service;
+package co.edu.uniquindio.poo.service;
 
-import co.edu.uniquindio.poo.Model.Usuario;
+import co.edu.uniquindio.poo.model.Usuario;
+import java.util.List;
 
 public interface IUsuarioService {
-    Usuario registrarUsuario(String nombre, String correo, String telefono);
+    boolean registrarUsuario(Usuario usuario);
     Usuario buscarUsuarioPorId(String id);
+    List<Usuario> obtenerUsuarios();
+    boolean eliminarUsuario(String id);
 }

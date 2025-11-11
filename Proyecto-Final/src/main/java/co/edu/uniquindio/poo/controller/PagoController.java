@@ -1,8 +1,9 @@
-package co.edu.uniquindio.poo.Controller;
+package co.edu.uniquindio.poo.controller;
 
-import co.edu.uniquindio.poo.Model.Envio;
-import co.edu.uniquindio.poo.Model.Pago;
-import co.edu.uniquindio.poo.Service.IPagoService;
+import co.edu.uniquindio.poo.model.Envio;
+import co.edu.uniquindio.poo.model.Pago;
+import co.edu.uniquindio.poo.model.patrones.strategy.IPagoStrategy; // Importar Patrón
+import co.edu.uniquindio.poo.service.IPagoService;
 
 public class PagoController {
     private final IPagoService pagoService;
@@ -11,8 +12,7 @@ public class PagoController {
         this.pagoService = pagoService;
     }
 
-    public Pago procesarPago(String idPago, Envio envio, double monto, String metodo) {
-        return pagoService.procesarPago(idPago, envio, monto, metodo);
+    public Pago procesarPago(Envio envio, IPagoStrategy estrategia) {
+        return pagoService.procesarPago(envio, estrategia);
     }
 }
-
